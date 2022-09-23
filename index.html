@@ -12,6 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="_offcanvas.scss">
     <link rel="stylesheet" href="bootstrap.min.css">
     
     <script src="https://kit.fontawesome.com/61f4a372d5.js" crossorigin="anonymous"></script>
@@ -22,8 +23,8 @@
     <nav id="navBar"  class="navBar fixed-top d-flex justify-content-between">
         <div class="offcanvas offcanvas-start" id="demo">
             <div class="offcanvas-header">
-                <h1>Alberto Cl<i class="fa-regular fa-clock"></i>cks</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                <h1>Alberto Cl <i class="fa-regular fa-clock"></i> cks</h1>
             </div>
             <div class="offcanvas-body">
               <div class="sign">
@@ -34,44 +35,44 @@
               </div>
               <div class="opp">
                   <ul>
-                      <li><div class="storeloc"><button><i class="fa-regular fa-star"></i>   Pending Items</button></div></li>
-                      <li><div class="storelocc"><button><i class="fa-solid fa-shop"></i>    Physical Stores</button></div></li>
+                      <li><div class="storeloc"><button><i class="fa-regular fa-star"></i> &nbsp;  Pending Items</button></div></li>
+                      <li><div class="storelocc"><button><i class="fa-solid fa-shop"></i> &nbsp;   Physical Stores</button></div></li>
                   </ul>
               </div>
               <div class="poplist">
+                <div class="categ">
+                    <h4>Categories</h4>
+                </div>
                   <ul>
                       <li><div class="categ">
-                          <h5>Categories</h5>
+                          <h5>Smart watches</h5>
                           <i class="fa-solid fa-chevron-right"></i>
                       </div></li>
 
                       <li><div class="categ">
-                        <h5>Categories</h5>
+                        <h5>Luxury</h5>
                         <i class="fa-solid fa-chevron-right"></i>
                     </div></li>
 
                     <li><div class="categ">
-                        <h5>Categories</h5>
+                        <h5>Vintage</h5>
                         <i class="fa-solid fa-chevron-right"></i>
                     </div></li>
 
                     <li><div class="categ">
-                        <h5>Categories</h5>
+                        <h5>Straps</h5>
                         <i class="fa-solid fa-chevron-right"></i>
                     </div></li>
 
                     <li><div class="categ">
-                        <h5>Categories</h5>
+                        <h5>Kids</h5>
                         <i class="fa-solid fa-chevron-right"></i>
                     </div></li>
-
-                    <li><div class="categ">
-                        <h5>Categories</h5>
-                        <i class="fa-solid fa-chevron-right"></i>
-                    </div></li>
-
-                    
+    
                   </ul>
+                  <div class="contact">
+                      <h4><i class="fa-solid fa-phone"></i> Contact us</h4>
+                  </div>
               </div>
             </div>
           </div>
@@ -80,16 +81,16 @@
                 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
                     <i class="fa-solid fa-bars-staggered"></i>
                   </button>
-                <li><h1>Alberto Cl<i class="fa-regular fa-clock"></i>cks</h1></li>
+                <li><h1>Albert<span>o</span> Cl <i class="fa-regular fa-clock"></i> cks</h1></li>
             </ul>
 
         </div>
         <div class="navList">
             <ul>
-                <li><a href="">Products</a></li>
-                <li><a href="">Technology</a></li>
-                <li><a href="">Store Locator</a></li>
-                <li><a href="">Support</a></li>
+                <li><a class="vview-link vview-link-ltr" href="">Products <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a class="vview-link vview-link-ltr" href="">Technology</a></li>
+                <li><a class="vview-link vview-link-ltr" href="">Store Locator</a></li>
+                <li><a class="vview-link vview-link-ltr" href="">Support</a></li>
             </ul>
         </div>
         <div class="navIconss">
@@ -108,7 +109,8 @@
                 <ul>
 
                 
-            <li><div class="searchBox">
+            <li>
+                <div class="searchBox">
                 <input type="text" placeholder="search...">
                 <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
@@ -129,8 +131,40 @@
         <!--First sec-->
        
     <div class="sec1">
-        <div class="firstbox">
-            
+        <div class="mover">
+            <h1>Discover the exceptional<br>watches <span>from us.</span></h1>
+            <p>Every watch is meticulously inspected and prepared by our<br>highly trained, manufacturer-accredited watchmakers, ensuring<br>only the very best quality.</p> 
+            <div class="vidGrid">
+                <div class="vline"></div>
+                    <ul>
+                        <li></li>
+                        <li><div class="gridimg">
+                            
+                        </div></li>
+    
+                        <li><div class="gridimg2">
+                            
+                        </div></li>
+    
+                        <li><div class="gridimg3">
+                            
+                        </div></li>
+    
+                        <li><div class="gridimg4">
+                            
+                        </div></li>
+
+                        <li><div class="gridimg5">
+                            
+                        </div></li>
+                        <li></li>
+                    </ul>
+                    <div class="vline"></div>
+            </div>
+        </div>
+        
+        <div class="secondbox">
+           
         </div>
     </div>
     <script src="script.js"></script>

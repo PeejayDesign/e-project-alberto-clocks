@@ -1,13 +1,10 @@
-// $(document).ready(function(){       
-//     var scroll_start = 0;
-//     var startchange = $('#startchange');
-//     var offset = startchange.offset();
-//     $(document).scroll(function() { 
-//        scroll_start = $(this).scrollTop();
-//        if(scroll_start > offset.top) {
-//            $('#navBar').css('background-color', 'blue');
-//         } else {
-//            $('#navBar').css('background-color', 'transparent');
-//         }
-//     });
-//  });
+function scrollValue() {
+    var navbar = document.getElementById('navBar');
+    var scroll = window.scrollY;
+    if (scroll < 30) {
+        navbar.classList.remove('navcolor2');
+    } else {
+        navbar.classList.add('navcolor2');
+    }
+}
+window.addEventListener('scroll', scrollValue);
