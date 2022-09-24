@@ -1,0 +1,96 @@
+/* .btn-default {
+
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: none;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+toggle.btn-default {outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #e6e6e6;
+    background-image: none;
+    border: none;
+}
+.btn-default:hover {
+    
+    background-color: transparent;
+    border: none;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    text-decoration: none;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: rgb(0, 0, 0);
+    background-color: #d4d4d4;
+    border: none;
+} */
+@media screen and (min-width:919px) {
+    .offcanvas-backdrop {
+      display: none!important;  
+    }
+
+    .offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 400px;
+    display: none!important;
+}
+}
+@media screen and (max-width:375px) {
+
+    .offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 300px;
+}
+}
+.offcanvas-header h1{
+    padding-left: 60px;
+     font-size: 20px;
+}
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+
+    padding: 1rem 1rem;
+}
+.btn-close {
+
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    color: #000;
+     background: transparent; 
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: .5;
+}
+.btn-close i{
+    font-size: 25px;
+}
