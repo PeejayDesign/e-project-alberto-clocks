@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .sec3nav{
-    height: 35vh;
+    height: 15vh;
     background-color: white;
     font-family: 'Rubik', sans-serif;
 }
@@ -8,7 +8,7 @@
     transition: 0.3s ease-in-out;
     display: flex;
      padding: 0 150px;
-     padding-top: 90px;
+     padding-top: 50px;
    align-items: center;
  justify-content: space-between;  
 }
@@ -57,7 +57,7 @@
 @media (max-width:1065px){
     .main3{
         padding:0 50px;
-        padding-top: 90px;
+        padding-top: 50px;
     }
     .filter{
         display: none;
@@ -65,4 +65,9 @@
     .filtermenu{
         display: contents;
     }
+}
+.watches{
+    font-size: 20px;
+    padding-top: 110px;
+   text-align: center;
 }
