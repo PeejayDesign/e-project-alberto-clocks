@@ -1,4 +1,4 @@
-// color change on scroll
+///////// color change on scroll///////
 function scrollValue() {
     var navbar = document.getElementById('navBar');
     var scroll = window.scrollY;
@@ -10,7 +10,7 @@ function scrollValue() {
 }
 window.addEventListener('scroll', scrollValue);
 
-// section fade in
+////////// section fade in//////
 $(document).on("scroll", function() {
     var pageTop = $(document).scrollTop();
     var pageBottom = pageTop + $(window).height();
@@ -32,7 +32,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
-//slider
+/////////slider////
 const slider = document.querySelector('.slider');
 const innerSlider = document.querySelector('.inner-slider');
 const prev = document.querySelector('.slider-prev');
@@ -42,7 +42,7 @@ let dragged = false;
 let startX;
 let x;
 
-// Desktop Version
+// Desktop Version for slider
 
 slider.addEventListener("mousedown", e => {
     dragged = true;
@@ -71,7 +71,7 @@ slider.addEventListener("mousemove", e => {
 
 });
 
-// Mobile Version
+// Mobile Version for slider
 
 slider.addEventListener('touchstart', e => {
     dragged = true;
