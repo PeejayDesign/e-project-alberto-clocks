@@ -72,15 +72,23 @@ ul {
     align-items: center;
 }
 .navList li a{
+    
     position: relative;
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0 15px;
 }
+.navList li a:hover{
+    color: #f1c79a;
+}
+.navList li a:active{
+    color: #24604e;
+}
 .vview-link::before {
     transition: 300ms;
     height: 2px;
     content: "";
+    border-radius: 10px;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.932);
   }
@@ -90,6 +98,29 @@ ul {
   }
   .vview-link-ltr:hover::before {
     width: 60%;
+  }
+  .buttonShop{
+      margin-top: 30px;
+    text-align: center;
+  }
+  .shopNow{
+      transition: 0.3s;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      background-color: #38876f;
+
+  }
+  .shopNow:hover{
+      padding: 10px 25px;
+      background-color: #24604e;
+      color: #fae3ca;
+  }
+  .shopNow a{
+      font-size: 15px;
+      text-decoration: none;
+      color: #f1c79a;
   }
 .searchBox{
     border: 1px solid rgba(255, 255, 255, 0.403);
@@ -266,7 +297,7 @@ ul {
 
 
 .chevronbtt{
-    margin-top: 160px;
+    margin-top: 90px;
     text-align: center;
     color: white;
     font-size: 20px;
