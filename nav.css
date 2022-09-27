@@ -265,7 +265,16 @@ ul {
 } 
 
 
-
+.chevronbtt{
+    margin-top: 160px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.chevronbtt a{
+    text-decoration: none;
+    color: white;
+}
 .poplist ul{
     margin: 0;
 }

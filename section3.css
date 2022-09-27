@@ -86,3 +86,15 @@
 .padthebox{
     padding: 0 60px;
 }
+@media (max-width:414px){
+    .padthebox{
+        padding: 0 20px;
+    }
+    .boxingitt{
+        padding: 10px;
+    }
+      .main3{
+          padding: 0 2px;
+      }
+
+}
