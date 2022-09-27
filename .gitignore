@@ -1,2 +1,3 @@
 .vscode:
 .vscode/settings.json
+git push --set-upstream origin Master
