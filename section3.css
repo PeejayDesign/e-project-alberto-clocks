@@ -13,6 +13,9 @@
    align-items: center;
  justify-content: space-between;  
 }
+html{
+    scroll-behavior: smooth;
+}
 .textsec3 h3{
     margin: 0;
     font-weight: 300;

@@ -36,7 +36,9 @@ grid-row-gap: 40px;
     height: 500px;
     width: 600px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .collectbox h1{
     font-family: 'Prata',serif;
 text-align: center;
