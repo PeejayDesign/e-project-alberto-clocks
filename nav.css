@@ -18,7 +18,7 @@ html{
     position: fixed;
      padding: 11px 50px;
     align-items: center; 
-    background-color: rgba(26, 7, 75, 0);
+    background-color: rgba(0, 0, 0, 0.753);
 }
 .navcolor2 {
     background-color: #090a0a;
@@ -125,7 +125,7 @@ ul {
 .searchBox{
     border: 1px solid rgba(255, 255, 255, 0.403);
     border-radius: 30px;
-    padding: 5px 0;
+    padding: 5px 10px;
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
@@ -164,6 +164,9 @@ ul {
     outline: none;
     width: 100px;
 }
+.searchBox button{
+    background: none;
+}
 .navIcons2{
     display: none;
 }
@@ -195,7 +198,7 @@ ul {
     /* padding: 0 10px; */
 }
 /* //////////////// */
-@media screen and (max-width:919px) {
+@media screen and (max-width:989px) {
     .navIcons2{
         display: contents;
     }
@@ -215,9 +218,7 @@ ul {
     /*.navIcons li:nth-child(4) {
         display: none;
     } */
-    .searchBox{
-        display: none;
-    }
+   
     #navBar{
         padding: 5px 15px; 
     }
