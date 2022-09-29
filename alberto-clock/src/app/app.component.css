@@ -41,7 +41,8 @@ ul {
 .btn{
     display: none;
 }
-.fa-clock{
+
+ .fa-clock{
     color: #38876f;
 }
 
@@ -54,6 +55,9 @@ ul {
 .logo li{
     padding: 10px;
 }
+.logo a{
+    text-decoration: none;
+} 
 
 .searchvv{
     padding: 0 6px;
@@ -78,7 +82,7 @@ ul {
     align-items: center;
 }
 .navList li a{
-    
+    font-size: 15px;
     position: relative;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -142,6 +146,7 @@ ul {
     position: relative;
 }
 .navIconss{
+    font-size: 14px;
     display: flex;
     align-items: center;
 }

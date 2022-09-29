@@ -85,19 +85,18 @@
     
                   </div>
         <div class="logo">
+            <a href="">
             <ul>
-               
-                <li><h1>Albert<span>o</span> Cl <i class="fa-regular fa-clock"></i> cks</h1></li>
+                  <li><h1>Albert<span>o</span> Cl <i class="fa-regular fa-clock"></i> cks</h1></li>  
             </ul>
-
+        </a> 
         </div>
         <div class="navList">
             <ul>
-                <li><a class="vview-link vview-link-ltr" href="">Products <i class="fa-solid fa-chevron-down"></i></a></li>
-                <li><a class="vview-link vview-link-ltr" href="">Technology</a></li>
-                <li><a class="vview-link vview-link-ltr" href="">Discover</a></li>
-                <li><a class="vview-link vview-link-ltr" href="">Accessories</a></li>
-                <li><a class="vview-link vview-link-ltr" href="">About us</a></li>
+                <li><a class=" button vview-link vview-link-ltr" routerLink="/product">Product</a></li>
+                <li><a class="button vview-link vview-link-ltr" routerLink="/support">Support</a></li>
+                <li> <a class="button vview-link vview-link-ltr" routerLink="/storelocator">Store Locator</a></li>
+                <li><a class="button vview-link vview-link-ltr" routerLink="/aboutUs">About us</a></li>
             </ul>
         </div>
         <div class="navIconss">
@@ -113,13 +112,6 @@
               </div>
         </div> 
     </nav>
-    <div class="liamo">
-        <a class="button" routerLink="/product">Product</a>
-        <a class="button" routerLink="/aboutUs">aboutUs</a>
-        <a class="button" routerLink="/storelocator">storelocator</a>
-        <a class="button" routerLink="/support">support</a>
-        <router-outlet></router-outlet>
-    </div>
-    
+        <router-outlet></router-outlet> 
 </body>
 </html>
