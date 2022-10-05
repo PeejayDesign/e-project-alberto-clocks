@@ -5,9 +5,6 @@ body{
     padding: 0;
     background-color: rgb(255, 255, 255);
 }
-html{
-    scroll-behavior: smooth;
-}
 /*navBar*/
 .navBar{
     transition: 0.5s;
@@ -100,7 +97,7 @@ ul {
     width: 60%;
   }
   .buttonShop{
-      margin-top: 30px;
+    margin-top: 30px;
     text-align: center;
   }
   .shopNow{

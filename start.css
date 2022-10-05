@@ -4,9 +4,7 @@ body{
     margin: 0;
     padding: 0;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 .sec1{
     position: relative;
     overflow: hidden;
