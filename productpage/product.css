@@ -12,13 +12,14 @@
   /*declaring value with root Sudo*/
   :root{
     --first-color: #110f29;
-    --second-color: #000000c6;
+    --second-color: #000000;
     --third-color: #ffffff;
     --fourth-color: #110f29;
     --box-shadow-color: rgba(1, 2, 68, 0.08);
   }
-  .container {font-family: 'Prata', serif;
-    margin-top: 70px;
+  .container {
+    font-family: 'Prata', serif;
+    margin-top: 60px;
     width: 100%;
   }
   #search-container {
@@ -53,13 +54,14 @@
     background-color: var(--second-color);
     color: var(--third-color);
   }
-  #products {
+  #products{
     justify-content: center;
-    margin-top: 70px;
+
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-column-gap: 1em;
     padding: 1em 0;
+    margin-top: 90px;
   }
   .card {
     background-color: var(--third-color);
@@ -108,12 +110,12 @@
     left: 0;
     right: 0;
     position: fixed;
-     padding: 14px 80px;
+     padding: 24px 80px;
     align-items: center; 
     background-color: white;
     z-index: 60;
   }
-  .searchBoxb{
+  #searchBoxb{
     border: 1px solid rgba(0, 0, 0, 0.403);
     border-radius: 30px;
     padding: 5px 10px;
@@ -121,8 +123,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.181);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+
 }
 /* .searchBox::before{
     content: "";
@@ -136,17 +137,17 @@
 } */
 
 
-.searchBoxb input::placeholder{
+#searchBoxb input::placeholder{
     color: rgba(0, 0, 0, 0.81);
 }
-.searchBoxb input{
+#searchBoxb input{
     color: rgb(0, 0, 0);
     background-color: transparent;
     border: none;
     outline: none;
     width: 100px;
 }
-.searchBoxb button{
+#searchBoxb button{
     background: none;
 }
   #buttons ul{
@@ -155,4 +156,38 @@
   }
   #buttons li{
     padding: 0 10px;
+  }
+
+  @media(max-width:836px){
+    #products{
+      margin-top: 360px;
+    }
+    #buttons{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    #buttons button{
+      padding: 10px 20px;
+    }
+    #buttons ul{
+      text-align: center;
+      display: block;
+      list-style: none;
+    }
+    #buttons li{
+      font-size: 10px;
+      padding: 10px 5px;
+    }
+    .subNav{
+      display: block;
+      justify-content: center;
+      left: 0;
+      right: 0;
+      position: fixed;
+       padding: 24px 80px;
+      align-items: center; 
+      background-color: white;
+      z-index: 60;
+    }
   }

@@ -28,42 +28,33 @@
     <link rel="stylesheet" href="colletions.css">
     <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="projectfooter.css">
+    <link rel="stylesheet" href="scrollingticker.css">
     <script src="https://kit.fontawesome.com/61f4a372d5.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
     <!--Navbar-->
-    <nav id="navBar" class="navBar fixed-top d-flex ">
+    <nav id="navBar"  class="navBar fixed-top d-flex ">
         <div class="offcanvas offcanvas-start" id="demo">
             <div class="offcanvas-header">
-                <button title="close" type="button" class="btn-close" data-bs-dismiss="offcanvas"><i
-                        class="fa-solid fa-xmark"></i></button>
+                <button title="close" type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
                 <h1>Alberto Cl <i class="fa-regular fa-clock"></i> cks</h1>
             </div>
             <div class="offcanvas-body">
-                <div class="sign">
-                    <ul>
-                        <li><button>Login</button></li>
-                        <li><button>Signup</button></li>
-                    </ul>
-                </div>
                 <div class="opp">
                     <ul>
-                        <li>
-                            <div class="storeloc"><button><i class="fa-regular fa-star"></i> &nbsp; Pending
-                                    Items</button></div>
-                        </li>
-                        <li>
-                            <div class="storelocc"><button><i class="fa-solid fa-location-dot"></i> &nbsp; Physical
-                                    Stores</button></div>
-                        </li>
+                       
+                        <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="productpage/product.html">Products</a></div></li>
+                        <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="technology.html">Technology</a></div></li>
+                        <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="support.html">Support</a></div></li>
+                        <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="aboutus.html">About us</a></div></li>
                     </ul>
                 </div>
-                <div class="poplist">
-                    <div class="categ">
-                        <h4>Categories</h4>
-                    </div>
+              <div class="poplist">
+                <div class="categ">
+                    <h4>Categories</h4>
+                </div>
                     <ul>
                         <li>
                             <div class="categ">
@@ -102,7 +93,7 @@
 
                     </ul>
                     <div class="contact">
-                        <h4><i class="fa-solid fa-phone"></i> Contact us</h4>
+                        <h4><a href="/contact.html"><i class="fa-solid fa-phone"></i> Contact us</a></h4>
                     </div>
                 </div>
             </div>
@@ -121,21 +112,19 @@
         </div>
         <div class="logo">
             <ul>
-
-                <li>
+                <li><a href="index.html">
                     <h1>Albert<span>o</span> Cl <i class="fa-regular fa-clock"></i> cks</h1>
-                </li>
+                  </a></li>
             </ul>
 
         </div>
         <div class="navList">
             <ul>
-                <li><a class="vview-link vview-link-ltr" href="">Products <i class="fa-solid fa-chevron-down"></i></a>
+                <li><a class="vview-link vview-link-ltr" href="productpage/product.html">Products</a>
                 </li>
-                <li><a class="vview-link vview-link-ltr" href="">Technology</a></li>
-                <li><a class="vview-link vview-link-ltr" href="">Discover</a></li>
-                <li><a class="vview-link vview-link-ltr" href="">Accessories</a></li>
-                <li><a class="vview-link vview-link-ltr" href="">About us</a></li>
+                <li><a class="vview-link vview-link-ltr" href="technology.html">Technology</a></li>
+                <li><a class="vview-link vview-link-ltr" href="support.html">Support</a></li>
+                <li><a class="vview-link vview-link-ltr" href="aboutus.html">About us</a></li>
             </ul>
         </div>
         <div class="navIconss">
@@ -157,8 +146,8 @@
                 <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             </div> -->
                     </li>
-                    <li><i class="fa-solid fa-location-dot" data-bs-toggle="tooltip" title="Find a Boutique"></i></li>
-                    <li><i class="fa-solid fa-phone" data-bs-toggle="tooltip" title="Contact Us"></i></li>
+                    <li><a href="/storelocator.html"><i class="fa-solid fa-location-dot" data-bs-toggle="tooltip" title="Find a Boutique"></i></a></li> 
+                    <li><a href="contact.html"><i class="fa-solid fa-phone" data-bs-toggle="tooltip" title="Contact Us"></i></a></li>
                     <li><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip" title="View Cart"></i> </li>
                 </ul>
 
@@ -290,7 +279,7 @@
                                     </select>
                                 </button> </li>
 
-                            <li> <button title="dropdown"><select title="dropdown" name="" id="">
+                            <li> <button  title="dropdown"><select title="dropdown" name="" id="">
                                         <option value="me">Series <i class="fa-solid fa-chevron-down fa-xs"></i>
                                         </option>
                                         <option value="me">All Products<i class="fa-solid fa-chevron-down fa-xs"></i>
@@ -801,6 +790,7 @@
 
     </footer>
     <script src="script.js"></script>
+    <script src="titlechange"></script>
 </body>
 
 </html>

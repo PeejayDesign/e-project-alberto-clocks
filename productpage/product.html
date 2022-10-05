@@ -9,23 +9,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/productpage/product.css">
+
+    <link rel="stylesheet" href="/section3.css">
+    <link rel="stylesheet" href="/slider.css">
+    <link rel="stylesheet" href="/products.css">
+    <link rel="stylesheet" href="/colletions.css">
+    <link rel="stylesheet" href="/modal.css">
+    <link rel="stylesheet" href="/projectfooter.css">
     <link rel="stylesheet" href="/nav.css">
     <link rel="stylesheet" href="/start.css">
     <link rel="stylesheet" href="/section2.css">
     <link rel="stylesheet" href="/bootstrap.min.css">
     <link rel="stylesheet" href="/projectfooter.css">
+
     <script src="https://kit.fontawesome.com/61f4a372d5.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--Navbar-->
-<div id="page-container">
-
-
 <nav id="navBar"  class="navBar fixed-top d-flex ">
   <div class="offcanvas offcanvas-start" id="demo">
       <div class="offcanvas-header">
@@ -33,18 +42,15 @@
           <h1>Alberto Cl <i class="fa-regular fa-clock"></i> cks</h1>
       </div>
       <div class="offcanvas-body">
-        <div class="sign">
-            <ul>
-                <li><button>Login</button></li>
-                <li><button>Signup</button></li>
-            </ul>
-        </div>
         <div class="opp">
-            <ul>
-                <li><div class="storeloc"><button><i class="fa-regular fa-star"></i> &nbsp;  Pending Items</button></div></li>
-                <li><div class="storelocc"><button><i class="fa-solid fa-location-dot"></i> &nbsp;   Physical Stores</button></div></li>
-            </ul>
-        </div>
+          <ul>
+             
+              <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="/productpage/product.html">Products</a></div></li>
+              <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="/technology.html">Technology</a></div></li>
+              <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="/support.html">Support</a></div></li>
+              <li><div class="storelocc"><a class="vview-link vview-link-ltr" href="/aboutus.html">About us</a></div></li>
+          </ul>
+      </div>
         <div class="poplist">
           <div class="categ">
               <h4>Categories</h4>
@@ -77,7 +83,7 @@
 
             </ul>
             <div class="contact">
-                <h4><i class="fa-solid fa-phone"></i> Contact us</h4>
+                <h4><a href="/contact.html"><i class="fa-solid fa-phone"></i> Contact us</a></h4>
             </div>
         </div>
       </div>
@@ -95,18 +101,19 @@
             </div>
   <div class="logo">
       <ul>
-         
-          <li><h1>Albert<span>o</span> Cl <i class="fa-regular fa-clock"></i> cks</h1></li>
+        <li><a href="/index.html">
+          <h1>Albert<span>o</span> Cl <i class="fa-regular fa-clock"></i> cks</h1>
+        </a></li>
       </ul>
 
   </div>
   <div class="navList">
       <ul>
-          <li><a class="vview-link vview-link-ltr" href="">Products <i class="fa-solid fa-chevron-down"></i></a></li>
-          <li><a class="vview-link vview-link-ltr" href="">Technology</a></li>
-          <li><a class="vview-link vview-link-ltr" href="">Discover</a></li>
-          <li><a class="vview-link vview-link-ltr" href="">Accessories</a></li>
-          <li><a class="vview-link vview-link-ltr" href="">About us</a></li>
+        <li><a class="vview-link vview-link-ltr" href="">Products</a>
+        </li>
+          <li><a class="vview-link vview-link-ltr" href="/technology.html">Technology</a></li>
+          <li><a class="vview-link vview-link-ltr" href="/support.html">Support</a></li>
+          <li><a class="vview-link vview-link-ltr" href="/aboutus.html">About us</a></li>
       </ul>
   </div>
   <div class="navIconss">
@@ -125,8 +132,8 @@
       <li>
             
   </li> 
-  <li><i class="fa-solid fa-location-dot" data-bs-toggle="tooltip" title="Find a Boutique"></i></li> 
-      <li><i class="fa-solid fa-phone" data-bs-toggle="tooltip" title="Contact Us"></i></li>
+  <li><a href="/storelocator.html"><i class="fa-solid fa-location-dot" data-bs-toggle="tooltip" title="Find a Boutique"></i></a></li> 
+  <li><a href="/contact.html"><i class="fa-solid fa-phone" data-bs-toggle="tooltip" title="Contact Us"></i></a></li>
       <li><i class="fa-solid fa-bag-shopping"  data-bs-toggle="tooltip" title="View Cart"></i> </li> 
       </ul> 
 
@@ -135,63 +142,76 @@
 </nav> 
 
     <div class="container">
-        <!-- container housing the serch activities -->
-        <!-- <div id="search-container">
-          <input
-            type="search"
-            id="search-input"
-            placeholder="Search product name here.."/>
-          
-        </div> -->
-        <div class="subNav">
-
+  <!-- <div id="search-container">
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Search product name here.."
+      />
+      <button id="search">Search</button>
+    </div>
+     -->
+        <div class="subNav"> 
           <div id="buttons">
-          <ul>
-            <li><button class="button-value" onclick="filterProduct('all')">All</button></li>
-            <li><button class="button-value" onclick="filterProduct('Luxury')">
-            Luxury
-          </button></li>
-          <li><button class="button-value" onclick="filterProduct('Smart watches')">
-            Smart Watches
-          </button></li>
-          <li><button class="button-value" onclick="filterProduct('Vintage')">
-            Vintage
-          </button></li>
-          <li><button class="button-value" onclick="filterProduct('Accessories')">
-            Accessories
-          </button></li>
-          </ul>
-        </div>
+            <ul>
+              <li><button class="button-value" onclick="filterProduct('all')">All</button></li>
+              <li><button class="button-value" onclick="filterProduct('Luxury')">
+              Luxury
+            </button></li>
+            <li><button class="button-value" onclick="filterProduct('Smartwatches')">
+              Smart Watches
+            </button></li>
+            <li><button class="button-value" onclick="filterProduct('Vintage')">
+              Vintage
+            </button></li>
+            <li><button class="button-value" onclick="filterProduct('Accessories')">
+              Accessories
+            </button></li>
+            </ul>
+          </div>
 
-
-
-
-        <div class="searchBoxb">
+        <div id="searchBoxb">
           <input type="search"
             id="search-input"
             placeholder="Search..."/>
-          <!-- <a href=""><i class="fa-solid fa-magnifying-glass"></i></a> -->
-      <button title="search" id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
-    </div>
-    
+      <button type="button" title="search" id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div> 
+   </div>
+     <div id="products"></div>
         </div>
         
-        <div id="products">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate molestiae accusamus minus illum a ad, aspernatur reiciendis recusandae pariatur. Esse non veritatis corrupti enim ab nisi magnam dolorem quod.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolor iusto velit fugit magni, dolorem in est. Hic dolorum quidem, unde quia, a veritatis labore sint itaque, temporibus maxime sequi?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ex ea tempora explicabo, vel necessitatibus repellendus alias obcaecati, ipsum aliquid nostrum repellat, earum libero aliquam debitis. Quis deleniti dolores optio?
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, exercitationem magni provident repellendus ad, perferendis vel et tenetur nisi quae natus est totam numquam nam eveniet optio quos autem voluptas.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, similique suscipit dignissimos et harum deleniti esse totam officia nemo deserunt, quod, aspernatur magnam officiis eveniet consectetur ut. Nobis, nostrum hic?
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci repudiandae, repellendus dolor eius numquam reprehenderit sunt. Fugit hic, nesciunt, architecto quaerat nulla, perspiciatis praesentium doloremque sint omnis saepe unde at!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eaque aut sapiente, saepe tempore quidem! Magni minus assumenda quasi ab adipisci blanditiis debitis perferendis, praesentium modi rerum exercitationem, quo nihil!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi et hic enim nisi, consequatur quae. Voluptate blanditiis, nesciunt omnis ex recusandae quos quasi quia, fugit debitis velit, odio adipisci maiores!
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, cumque nulla aut asperiores, quis suscipit nisi ab aspernatur, officia nihil assumenda tempore minima necessitatibus doloremque voluptate quod placeat voluptas ut.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum exercitationem, deleniti eius ratione non ut pariatur quos tempore iste. Odit, voluptates! Animi delectus, dolor rerum odio libero veniam consequatur sit.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore, rem ipsam temporibus porro rerum ipsum odit quo nobis commodi quae dolores iure, molestias beatae iusto totam? In, non minus.
+      
+
+
+      <div class="newLetter">
+        <div class="section33">
+            <p>Subscribe to our Newsletter</p>
         </div>
+        <div class="newLetterbox">
+            <div class="nput">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="newsbutt">
+                <button title="subscribe">Subscribe</button>
+            </div>
+        </div>
+
+    </div>
+<!-- 
+    <div class="ticker">
+      <div class="ticker__list">
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/250x100?text=Item 1&amp;color=f3e5f5"/></div>
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/300x100?text=Item 2&amp;color=ede7f6"/></div>
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/200x100?text=Item 3&amp;color=ffcdd2"/></div>
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/100x100?text=Item 4&amp;color=f8bbd0"/></div>
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/350x100?text=Item 5&amp;color=e8eaf6"/></div>
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/100x100?text=Item 6&amp;color=e3f2fd"/></div>
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/250x100?text=Item 7&amp;color=e1f5fe"/></div>
+        <div class="ticker__item"><img title="sct" src="https://img.clock.co.uk/150x100?text=Item 8&amp;color=e0f7fa"/></div>
       </div>
-
-
-
+    </div> -->
+    <!--footer-->
       <footer class="footer-section">
     <div class="container">
         <div class="footer-cta pt-5 pb-5">
@@ -255,5 +275,7 @@
 </div>
       <script src="/productpage/product.js"></script>
       <script src="/script.js"></script>
+      <script src="titlechange2.js"></script>
+
 </body>
 </html>

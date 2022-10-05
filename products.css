@@ -4,9 +4,7 @@
     margin-top: 30px;
     font-size: 17px;
   }
-  html{
-    scroll-behavior: smooth;
-}
+
   .sliderinfo p{
       font-size: 12px;
       margin: 0;

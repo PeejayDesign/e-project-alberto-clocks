@@ -15,7 +15,7 @@ body{
     position: fixed;
      padding: 18px 50px;
     align-items: center; 
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: #090a0a;
 }
 .navcolor2 {
     background-color: #090a0a;
@@ -45,7 +45,9 @@ ul {
 .logo li{
     padding: 10px;
 }
-
+.logo a{
+    text-decoration: none;
+}
 .searchvv{
     padding: 0 6px;
     color: white;
@@ -100,6 +102,10 @@ ul {
     margin-top: 30px;
     text-align: center;
   }
+  .buttonShop a{
+      text-decoration: none;
+      color: #f1c79a;
+  }
   .shopNow{
       transition: 0.3s;
       text-align: center;
@@ -128,8 +134,8 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.181);
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     position: relative;
 }
 /* .searchBox::before{
@@ -209,16 +215,14 @@ ul {
     .fa-magnifying-glass {
         display: contents;
    } 
-     .navIcons li:nth-child(2) {
+     .navIcons li:nth-child(3) {
         display: none;
     }
     /*.navIcons li:nth-child(4) {
         display: none;
     } */
    
-    #navBar{
-        padding: 5px 15px; 
-    }
+ 
     .btn{
         display: contents;
     }
@@ -274,10 +278,15 @@ ul {
     margin: 0;
     
 }
-.opp li{
-    padding: 0 10px;
+.storelocc a{
+    font-size: 15px;
+    color: #090a0a;
+    text-decoration: none;
 }
-.opp li button{
+.opp li{
+    padding: 10px 10px;
+}
+.opp li  a{ 
     transition: 0.3s;
     width: 150px;
     padding: 10px 0px;
@@ -286,7 +295,7 @@ ul {
     border: none;
     border-radius: 0.2875rem;
 }
-.opp li button:hover{
+.opp li a:hover{
     color: #38876f;
 }
 /**/ .storeloc{
@@ -336,7 +345,10 @@ ul {
      left: 0;
     bottom: 0;
 }
-.contact h4{
+.contact h4 a{
+    font-family: 'Prata';
+    color: black;
+    text-decoration: none;
     margin-bottom: 60px;
     display: block;
     padding: 0 15px;

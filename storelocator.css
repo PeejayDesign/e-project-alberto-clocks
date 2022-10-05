@@ -1,0 +1,77 @@
+#locations{
+   justify-content: space-around;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    padding: 1em 0;
+    margin-top: 90px;
+  }
+    /*declaring value with root Sudo*/
+    :root{
+        --first-color: #110f29;
+        --second-color: #000000;
+        --third-color: #f2f2f2;
+        --fourth-color: #110f29;
+        --box-shadow-color: rgba(1, 2, 68, 0.08);
+      }
+     .containerr{
+padding: 0px 3%;
+         justify-content: center;
+         padding-top: 80px;
+         
+     }
+  .locabox2 {
+      display: flex;
+      justify-content: space-between;
+    background-color: var(--third-color);
+    border-radius: 5px;
+    margin: 0.5rem 1%;
+    width: 110%;
+    padding: 0.625rem;
+  }
+.locabox{
+
+    padding-bottom: 20px;
+}
+  .buildt{
+    border-radius: 100%;
+    color: #f1c79a;
+    height: 30px;
+    margin-right: 0.4375rem;
+    padding: 9px;
+    width: 30px;
+    background-color: #38876f;
+  }
+  .locabox2 a{
+      text-decoration: none;
+      color: black;
+  }
+  .locainfo{
+
+    margin: 0.625rem ;
+  }
+  @media screen and (max-width: 1027px) {
+    .locabox2 {
+        display: flex;
+        justify-content: space-between;
+      background-color: var(--third-color);
+      border-radius: 5px;
+      margin: 0.5rem 1%;
+  
+      width: initial;
+      padding: 0.625rem;
+    }
+  
+    .locabox {
+      left: 0;
+      right: 0;
+    }
+    #locations {
+      display: block;
+    }
+  }
+  .locaddress{
+    text-decoration: none;
+    
+    display: flex;
+}

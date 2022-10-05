@@ -19,6 +19,8 @@
 }
 }
 .offcanvas-header h1{
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
     padding-left: 60px;
      font-size: 20px;
 }
