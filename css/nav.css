@@ -35,6 +35,28 @@ ul {
 .fa-clock{
     color: #38876f;
 }
+.timeloader{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 3px solid #f9f9f9;
+    margin-left: 89px;
+    margin-top: -20px;
+}
+.timeloader::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 8px; bottom: 9px;
+    width: 2px; height: 10px;
+    background: #f9f9f9;
+    transform-origin: 0 100%;
+    animation: tick 1s infinite;
+}
+@keyframes tick{
+    to { transform: rotate(359deg);}
+ }
 
 .logo ul{
     list-style: none;
@@ -44,6 +66,16 @@ ul {
 }
 .logo li{
     padding: 10px;
+}
+#count{
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border-radius: 10%;
+}
+.logooshi{
+ display: flex;
 }
 .logo a{
     text-decoration: none;

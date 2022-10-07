@@ -5,8 +5,8 @@
     width: 100%;
     height: 435px;
     padding: 20px 0;
-    position: relative;
-    overflow: hidden;
+    
+ overflow: hidden;
 }
 html{
   scroll-behavior: smooth;

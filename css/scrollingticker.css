@@ -1,0 +1,72 @@
+.hwrap {
+    overflow: hidden;
+    /* HIDE SCROLL BAR */
+    background: #eee;
+}
+
+/* (B) MOVING TICKER WRAPPER */
+.hmove {
+    align-items: center;
+    display: flex;
+}
+#Greaatings{font-size: 40px;
+    flex-shrink: 0;
+    width: 150%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+#hours{
+    font-size: 40px;
+    flex-shrink: 0;
+    width: 5%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+#minutes{font-size: 40px;
+    flex-shrink: 0;
+    width: 5%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+#seconds{font-size: 40px;
+    flex-shrink: 0;
+    width: 5%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+#session{font-size: 40px;
+    flex-shrink: 0;
+    width: 5%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+    0% {
+        transform: translate3d(100%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-400%, 0, 0);
+    }
+}
+
+.hmove {
+    animation: tickerh linear 20s infinite;
+}
+
+.hmove:hover {
+    animation-play-state: paused;
+}
