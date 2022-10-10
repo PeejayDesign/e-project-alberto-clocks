@@ -3,8 +3,6 @@ const title = "Alberto Clocks | Home";
 const message = "Welcome To Alberto Clocks";
 
 const changetitle = setInterval(() => {
-   document.title =
-   showingAlert ? title : message;
-   showingAlert = !showingAlert;
-
+	document.title = showingAlert ? title : message;
+	showingAlert = !showingAlert;
 }, 700);

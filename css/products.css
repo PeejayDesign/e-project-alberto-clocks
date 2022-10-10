@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-.sliderinfo h5{
-    font-family: 'Prata', serif;
-    margin-top: 30px;
-    font-size: 17px;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+.sliderinfo h5 {
+	font-family: "Prata", serif;
+	margin-top: 30px;
+	font-size: 17px;
+}
 
-  .sliderinfo p{
-      font-size: 12px;
-      margin: 0;
-      margin-top: 10px;
-      color: rgba(128, 128, 128, 0.685);
-  }
-  .sliderinfo h4{
-      margin: 0;
-      font-size: 15px;
-      font-family: 'Prata', serif;
-  }
- 
+.sliderinfo p {
+	font-size: 12px;
+	margin: 0;
+	margin-top: 10px;
+	color: rgba(128, 128, 128, 0.685);
+}
+.sliderinfo h4 {
+	margin: 0;
+	font-size: 15px;
+	font-family: "Prata", serif;
+}
