@@ -1,6 +1,6 @@
 let showingAlert = false;
-const title = "Alberto Clocks | Products";
-const message = "Home of Watches";
+const title = "Alberto Clocks | About Us";
+const message = "Welcome To Alberto Clocks";
 
 const changetitle = setInterval(() => {
    document.title =

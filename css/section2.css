@@ -7,9 +7,7 @@
     width: 100%;
     overflow: hidden;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 .brands{
     transition: 0.3s ease-in-out;
     padding-top: 50px;

@@ -31,7 +31,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body id="get-location">
     <!--Navbar-->
     <nav id="navBar"  class="navBar fixed-top d-flex ">
         <div class="offcanvas offcanvas-start" id="demo">
@@ -81,7 +81,7 @@
       
                   </ul>
                   <div class="contact">
-                      <h4><a href="/contact.html"><i class="fa-solid fa-phone"></i> Contact us</a></h4>
+                      <h4><a href="/Pages/contact.html"><i class="fa-solid fa-phone"></i> Contact us</a></h4>
                   </div>
               </div>
             </div>
@@ -101,7 +101,7 @@
                   <ul>
                       <li class="logooshi"><a href="/index.html">
                           <h1>Albert<span>o</span> Cl <i class="fa-regular fa-clock"></i> cks</h1>
-                        </a><span id="count"></span></li>  
+                        </a><span title="User Count" id="count"></span></li>  
                   </ul>
               </div>
         <div class="navList">
@@ -206,14 +206,14 @@
     <div class="section2">
         <div class="tag brands">
             <ul>
-                <li><img src="/images/brand icons/rollyb.png" alt=""></li>
-                <li><img src="/images/brand icons/richb.png" alt=""></li>
-                <li><img src="/images/brand icons/mikeb.png" alt=""></li>
-                <li><img src="/images/brand icons/appb.png" alt=""></li>
-                <li><img src="/images/brand icons/omegb.png" alt=""></li>
-                <li><img src="/images/brand icons/patexb.png" alt=""></li>
-                <li><img src="/images/brand icons/catb.png" alt=""></li>
-                <li><img src="/images/brand icons/casb.png" alt=""></li>
+                <li><img title="Rolex" src="/images/brand icons/rollyb.png" alt=""></li>
+                <li><img title="Richard Miles" src="/images/brand icons/richb.png" alt=""></li>
+                <li><img title="Micheal Kobs" src="/images/brand icons/mikeb.png" alt=""></li>
+                <li><img title="Apple Watch" src="/images/brand icons/appb.png" alt=""></li>
+                <li><img title="Omega" src="/images/brand icons/omegb.png" alt=""></li>
+                <li><img title="Patek Philippe Geneve" src="/images/brand icons/patexb.png" alt=""></li>
+                <li><img title="carlier" src="/images/brand icons/catb.png" alt=""></li>
+                <li><img title="Casio" src="/images/brand icons/casb.png" alt=""></li>
             </ul>
         </div>
     </div>
@@ -390,133 +390,86 @@
                 </button>
 
                 <div class=" inner-slider">
+                    <!-- first image div -->
                     <div class=" tag slider-item">
                         <div class=" minibox">
-                            <img src="https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw836bd71c/images/large/637709227131219052-2059095.png?sw=350&sh=350&sm=fit&sfrm=png"
-                                alt="">
+                            <img title="RENDEZ-VOUS CLASSIC NIGHT & DAY" src="https://www.burdeens.com/data/products/products/3856.NI_Image.jpg"
+                                alt="RENDEZ-VOUS CLASSIC NIGHT & DAY">
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">RENDEZ-VOUS CLASSIC NIGHT & DAY</h5>
+                            <p title="Product Category">Luxary</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">$40,000</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
-                            </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup()">Quick View</button>
-                         <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
+                            </div><button title="Know more" type="submit" class="quickView"
+                            onclick="openPopup()">Details</button>
                         </div>
                     </div>
+                     <!-- Second image div -->
                     <div class="slider-item">
-                        <div title="Showing that we Added Skeleton" class="minibox2">
-                            <!-- <img  src="https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw836bd71c/images/large/637709227131219052-2059095.png?sw=350&sh=350&sm=fit&sfrm=png" alt=""> -->
+                        <div  class="minibox2">
+                             <img title="Marine Torpilleur Panda 42mm" src="https://www.burdeens.com/data/products/products/3849.NI_Image.jpg" alt="Marine Torpilleur Panda 42mm"> 
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">Marine Torpilleur Panda 42mm</h5>
+                            <p title="Product Category">Vintage</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">$8,500</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup1()">Quick View</button>
-                        <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
+                            onclick="openPopup1()">Details</button>
                         </div>
                     </div>
+                     <!-- Third image div -->
                     <div class="slider-item">
                         <div class="minibox3">
-                            <img src="https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7b65464c/images/large/637758163780702766-2289877.png?sw=350&sh=350&sm=fit&sfrm=png"
-                                alt="">
+                            <img title="oraimo Watch 2 Pro" src="https://media.ng.oraimo.com/catalog/product/cache/39b8d68382bba865f2bf503d06bb41d9/o/s/osw-32_.jpg"
+                                alt="oraimo Watch 2 Pro">
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">oraimo Watch 2 Pro</h5>
+                            <p title="Product Category">Smart Watches</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price"> ₦28,300</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup()">Quick View</button>
-                          <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
-
+                            onclick="openPopup2()">Details</button>
                         </div>
                     </div>
+                     <!-- Fourth image div -->
                     <div class="slider-item">
-                        <div title="Showing that we Added Skeleton" class="minibox4">
-                            <!-- <img  src="https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw836bd71c/images/large/637709227131219052-2059095.png?sw=350&sh=350&sm=fit&sfrm=png" alt=""> -->
+                        <div title="VACHERON HISTORIQUES AMERICAN 1921" class="minibox4">
+                             <img  src="https://www.burdeens.com/data/products/products/3850.NI_Image.jpg" alt="VACHERON HISTORIQUES AMERICAN 1921"> 
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">VACHERON HISTORIQUES AMERICAN 1921</h5>
+                            <p title="Product Category">Cartier</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">$36,800</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup()">Quick View</button>
-                       <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
+                            onclick="openPopup3()"> Details</button>
                         </div>
                     </div>
                     <div class="slider-item">
                         <div class="minibox5">
-                            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MP853ref_VW_PF+watch-45-stainless-gold-cell-8s_VW_PF_WF_CO?wid=375&hei=356&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660780829093%2C1661890959881"
-                                alt="">
+                            <img title="QLOCKTWO W39 FINE STEEL" src="https://cdn.shopify.com/s/files/1/0619/2984/9058/products/qlocktwo_w35_fine_steel_milanaise_frontal_en_web_360x.jpg?v=1652832403"
+                                alt="QLOCKTWO W39 FINE STEEL">
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">QLOCKTWO W39 FINE STEEL</h5>
+                            <p title="Product Category">dynamic</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">€955.00</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup()">Quick View</button>
-                       <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
+                            onclick="openPopup4()">Details</button>
                         </div>
                     </div>
                     <div class="slider-item">
@@ -525,24 +478,14 @@
                                 alt="">
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">Apple Watch Ultra 4G 49mm Titanium Yellow/Beige Trail Loop Watch Strap M/L</h5>
+                            <p title="Product Category">Smart watches</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">₦128,300.00</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup()">Quick View</button>
-                          <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
+                            onclick="openPopup5()">Quick View</button>
                         </div>
                     </div>
                     <div class="slider-item">
@@ -551,66 +494,46 @@
                                 alt="">
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">Apple Watch Ultra</h5>
+                            <p title="Product Category">smart watches</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">RM 3,799.00</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup()">Quick View</button>
-                          <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
+                            onclick="openPopup6()">Details</button>
                         </div>
                     </div>
                     <div class="slider-item">
                         <div class="minibox8">
-                            <img src="https://michaelkors.scene7.com/is/image/MichaelKors/MK2963-0650_IS?$categoryMediumNew$&fmt=pjpeg"
+                            <img src="https://image-us.samsung.com/us/watches/galaxy-watch5/images/galaxy-watch5-pro-gray-front.jpg"
                                 alt="">
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">Galaxy Watch5 Pro</h5>
+                            <p title="Product Category">Smart watch</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">$ 180</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                            onclick="openPopup()">Quick View</button>
-                            <!-- <div class="containerForPopup" title="container">
-                                <button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
-                                Popup
-                                <div class="popup" id="popup">  
-                                <button type="button" title="Close" onclick="closePopup()">X</button>
-                                <h2 id="firstProductName"></h2>
-                                <p id="firstProductDescription"></p>
-                                </div>
-                                </div> -->
+                            onclick="openPopup7()">Quick View</button>
                         </div>
                     </div>
                     <div class="slider-item">
                         <div class="minibox9">
-                            <img src="https://assets.ajio.com/medias/sys_master/root/20220308/zdVx/622654cdaeb26921afcbaf9d/-473Wx593H-469161597-black-MODEL.jpg"
+                            <img src="https://cdn.shopify.com/s/files/1/0619/2984/9058/products/C2_A6f_C2_A6_C2_B2_C2_B5_1_400x.jpg?v=1652832423"
                                 alt="">
                         </div>
                         <div class="sliderinfo">
-                            <h5>Vacheron Constatin</h5>
-                            <p>Cartier</p>
+                            <h5 title="Product Name">Vacheron Constatin</h5>
+                            <p title="Product Category">Cartier</p>
                             <div class="carting">
-                                <h4>$18,000.00</h4>
+                                <h4 title="Product Price">$18,000.00</h4>
                                 <button><i class="fa-solid fa-bag-shopping" data-bs-toggle="tooltip"
                                         title="Add to Cart"></i></button>
                             </div><button title="submit" type="submit" class="quickView"
-                                onclick="openPopup()">Quick View</button>
+                                onclick="openPopup8()">Quick View</button>
                             
                         </div>
                     </div><div class="containerForPopup" title="container">
@@ -624,6 +547,9 @@
                                     <button type="button" title="Close" onclick="closePopup()">X</button>
                                     <h2 id="firstProductName"></h2>
                                     <p id="firstProductDescription"></p>
+                                    <p id="resistance"></p>
+                                    <p id="strap"></p>
+                                    <p id="functionalities"></p>
                                     </div>
                 <button title="chevron right" class="slider-next">
                     <i class="fa-solid fa-chevron-right"></i>
@@ -646,7 +572,7 @@
                         </div>
                     </div>
                     <h1>Smart Watches</h1>
-                    <p><a href="">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                    <p><a href="/Pages/product.html">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                 </li>
 
 
@@ -657,7 +583,7 @@
                         </div>
                     </div>
                     <h1>Luxury</h1>
-                    <p><a href="">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                    <p><a href="/Pages/product.html">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                 </li>
 
                 <li>
@@ -667,7 +593,7 @@
                         </div>
                     </div>
                     <h1>Vintage</h1>
-                    <p><a href="">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                    <p><a href="/Pages/product.html">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                 </li>
 
                 <li>
@@ -677,7 +603,7 @@
                         </div>
                     </div>
                     <h1>Accessories</h1>
-                    <p><a href="">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+                    <p><a href="/Pages/product.html">Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
                 </li>
             </ul>
         </div>
@@ -690,50 +616,50 @@
     </div>
     <div class="row">
         <div class="tag col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1461141346587-763ab02bced9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1461141346587-763ab02bced9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
 
-            <img src="https://images.unsplash.com/photo-1517463700628-5103184eac47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1517463700628-5103184eac47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
         </div>
 
         <div class="tag col-lg-4 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1535346256685-0527f1dfd658?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1535346256685-0527f1dfd658?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
 
-            <img src="https://images.unsplash.com/photo-1534312422316-a584327469a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1534312422316-a584327469a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1514204079287-d6a6cd8d6d16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1093&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1514204079287-d6a6cd8d6d16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1093&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
 
-            <img src="https://images.unsplash.com/photo-1584350067924-314b8fd5ecab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1584350067924-314b8fd5ecab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
         </div>
 
         <div class="tag col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1452878569550-39e3d2e630ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1452878569550-39e3d2e630ea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
 
-            <img src="https://images.unsplash.com/photo-1455651512878-0ddbb4c4d0a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1455651512878-0ddbb4c4d0a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
                 class=" w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
         </div>
 
         <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1552493987-2841b6dd22dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1552493987-2841b6dd22dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
 
-            <img src="https://images.unsplash.com/photo-1647336399383-f368d5d9822a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1647336399383-f368d5d9822a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
         </div>
 
         <div class="tag col-lg-4 mb-4 mb-lg-0">
-            <img src="https://images.unsplash.com/photo-1638938158700-c3f3e81f6ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1638938158700-c3f3e81f6ff3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
 
-            <img src="https://images.unsplash.com/photo-1586568650353-529020f53985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
+            <img title="Alberto Gallery" src="https://images.unsplash.com/photo-1586568650353-529020f53985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
                 class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
         </div>
     </div>
@@ -765,6 +691,7 @@
         <span id="dottt">:</span>
         <span id="seconds">00</span>
         <span id="session">AM</span>
+        <span id="location-details"></span>
       </div>
     </div>
     <!--  -->
@@ -776,14 +703,12 @@
                         <div class="single-cta">
                             <i class=""></i>
                             <div class="cta-text">
-                                <h4>Customer care</h4>
+                                <h4 title="Customer Care">Customer care</h4>
                                 <div class="footer-widget">
                                     <ul>
-                                        <li><a href="/Pages/contact.html">CONTACT US</a></li>
-                                        <li><a href="tel: +234 902 485 7618" > Call Now: 902 485 7618</a></li>
-                                        <li><a href="/Pages/support.html">FAQ</a></li>
-                                        <li><a href="#">CHECK ORDER</a></li>
-                                        <li><a href="#">BOOK AN APPOINTMENT</a></li>
+                                        <li><a title="Contact Us" href="mailto:bamigboyepelumi38@gmail.com">CONTACT US</a></li>
+                                        <li><a title="Alberto Hotline" href="tel: +234 902 485 7618" > Call Now: 902 485 7618</a></li>
+                                        <li><a title="FAQ" href="/Pages/support.html">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -811,11 +736,11 @@
                                 <h4>Follow us</h4>
                                 <div class="footer-social-icon">
                                     <ul>
-                                        <li><a title="ig" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a title="fb" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a title="twi" href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                        <li><a title="oint" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                        <li><a title="yt" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                        <li><a title="Instagram" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li><a title="Facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a title="Twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a title="Pinterest" href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                        <li><a title="youTube" href="#"><i class="fa-brands fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -828,17 +753,11 @@
                 </div>
 
     </footer>
-
-  <script src="/javaScript/aboutustitlechange.js"></script>
-  <script src="/javaScript/contacttitlechange.js"></script>
+  <!-- Javascript files -->
   <script src="/javaScript/impScript.js"></script>
+  <script src="/javascript/location.js"></script>
   <script src="/javaScript/indextitlechange.js"></script>
-  <script src="/javaScript/product.js"></script>
-  <script src="/javaScript/producttitlechange.js"></script>
   <script src="/javaScript/scrollingticker.js"></script>
-  <script src="/javaScript/storelocatortitlechange.js"></script>
-  <script src="/javaScript/supporttitlechange.js"></script>
-  <script src="/javaScript/technologytitlechange.js"></script>
   <script src="/javaScript/visitorcount.js"></script>
    <script src="/javascript/quickView.js"></script>
 </body>

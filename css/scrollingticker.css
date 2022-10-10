@@ -9,13 +9,13 @@
     align-items: center;
     display: flex;
 }
-#Greaatings{font-size: 40px;
+/* #Greaatings{font-size: 40px;
     flex-shrink: 0;
     width: 150%;
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
-}
+} */
 
 #hours{
     font-size: 40px;
@@ -49,6 +49,14 @@
     padding: 10px;
     text-align: center;
 }
+#location-details{
+    font-size: 40px;
+    flex-shrink: 0;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
 
 
 /* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
@@ -69,4 +77,48 @@
 
 .hmove:hover {
     animation-play-state: paused;
+}
+
+@media screen and (max-width:989px){
+    #hours{
+        font-size: 20px;
+        flex-shrink: 0;
+        width: 10%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+    #minutes{
+        font-size: 20px;
+        flex-shrink: 0;
+        width: 10%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+    #seconds{
+        font-size: 20px;
+        flex-shrink: 0;
+        width: 10%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+    #session{
+        font-size: 20px;
+        flex-shrink: 0;
+        width: 10%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+    #location-details{
+        font-size: 15px;
+        flex-shrink: 0;
+        width: 10%;
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+
 }

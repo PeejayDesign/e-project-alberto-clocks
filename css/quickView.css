@@ -49,17 +49,18 @@ z-index: 80;
     font-weight: 500;
     margin: 30px 0 10px;
     }
+
     .popup button{
     align-items: center;
-    width: 50%;
+    width: 7%;
+    height: 10%;
     margin-top: 20px;
-    /* padding: 10px 0; */
     background: red;
     color: #ffffff;
     border: none;
     outline: none;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
     }
