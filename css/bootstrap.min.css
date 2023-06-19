@@ -1,50 +1,50 @@
 @media screen and (min-width: 919px) {
-	.offcanvas-backdrop {
-		display: none !important;
-	}
+  .offcanvas-backdrop {
+    display: none !important;
+  }
 
-	.offcanvas-start {
-		top: 0;
-		left: 0;
-		width: 400px;
-		display: none !important;
-	}
+  .offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 400px;
+    display: none !important;
+  }
 }
 @media screen and (max-width: 375px) {
-	.offcanvas-start {
-		top: 0;
-		left: 0;
-		width: 300px;
-	}
+  .offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 300px;
+  }
 }
 .offcanvas-header h1 {
-	cursor: pointer;
-	font-family: "Rubik", sans-serif;
-	padding-left: 60px;
-	font-size: 20px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  padding-left: 60px;
+  font-size: 20px;
 }
 @media screen and (max-width: 280px) {
-	.offcanvas-header h1 {
-		font-size: 13px;
-	}
+  .offcanvas-header h1 {
+    font-size: 13px;
+  }
 }
 .offcanvas-header {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 
-	padding: 1rem 1rem;
+  padding: 1rem 1rem;
 }
 .btn-close {
-	box-sizing: content-box;
-	width: 1em;
-	height: 1em;
-	padding: 0.25em 0.25em;
-	color: #000;
-	background: transparent;
-	border: 0;
-	border-radius: 0.25rem;
-	opacity: 0.5;
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  padding: 0.25em 0.25em;
+  color: #000;
+  background: transparent;
+  border: 0;
+  border-radius: 0.25rem;
+  opacity: 0.5;
 }
 .btn-close i {
-	font-size: 25px;
+  font-size: 25px;
 }

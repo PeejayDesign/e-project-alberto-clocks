@@ -2,128 +2,128 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 * {
-	border: none;
-	box-sizing: border-box;
-	font-family: "Poppins", sans-serif;
-	margin: 0;
-	outline: none;
-	padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  outline: none;
+  padding: 0;
 }
 /*declaring value with root Sudo*/
 :root {
-	--first-color: #110f29;
-	--second-color: #000000;
-	--third-color: #ffffff;
-	--fourth-color: #110f29;
-	--box-shadow-color: rgba(1, 2, 68, 0.08);
+  --first-color: #110f29;
+  --second-color: #000000;
+  --third-color: #ffffff;
+  --fourth-color: #110f29;
+  --box-shadow-color: rgba(1, 2, 68, 0.08);
 }
 .container {
-	font-family: "Prata", serif;
-	margin-top: 60px;
-	width: 100%;
+  font-family: "Prata", serif;
+  margin-top: 60px;
+  width: 100%;
 }
 #search-container {
-	margin: 1em 0;
+  margin: 1em 0;
 }
 #search-container input {
-	background-color: transparent;
-	border-bottom: 2px solid var(--first-color);
-	padding: 1em 0.3em;
-	width: 40%;
+  background-color: transparent;
+  border-bottom: 2px solid var(--first-color);
+  padding: 1em 0.3em;
+  width: 40%;
 }
 #search-container input:focus {
-	border-bottom-color: var(--second-color);
+  border-bottom-color: var(--second-color);
 }
 #search-container button {
-	background-color: var(--second-color);
-	border-radius: 5px;
-	color: var(--third-color);
-	margin-left: 1em;
-	margin-top: 0.5em;
-	padding: 1em 2em;
+  background-color: var(--second-color);
+  border-radius: 5px;
+  color: var(--third-color);
+  margin-left: 1em;
+  margin-top: 0.5em;
+  padding: 1em 2em;
 }
 .button-value {
-	border: 1px solid var(--second-color);
-	background-color: transparent;
-	border-radius: 3em;
-	color: var(--second-color);
-	cursor: pointer;
-	padding: 5px 10px;
+  border: 1px solid var(--second-color);
+  background-color: transparent;
+  border-radius: 3em;
+  color: var(--second-color);
+  cursor: pointer;
+  padding: 5px 10px;
 }
 .active {
-	background-color: var(--second-color);
-	color: var(--third-color);
+  background-color: var(--second-color);
+  color: var(--third-color);
 }
 #products {
-	justify-content: center;
+  justify-content: center;
 
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-column-gap: 1em;
-	padding: 1em 0;
-	margin-top: 90px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 1em;
+  padding: 1em 0;
+  margin-top: 90px;
 }
 .card {
-	background-color: var(--third-color);
-	border-radius: 5px;
+  background-color: var(--third-color);
+  border-radius: 5px;
 
-	max-width: 18em;
-	margin-top: 1em;
-	padding: 1em;
-	margin-right: 40px;
+  max-width: 18em;
+  margin-top: 1em;
+  padding: 1em;
+  margin-right: 40px;
 }
 .image-container {
-	text-align: center;
+  text-align: center;
 }
 img {
-	height: 15em;
-	max-width: 100%;
-	object-fit: contain;
+  height: 15em;
+  max-width: 100%;
+  object-fit: contain;
 }
 .container {
-	color: var(--fourth-color);
-	padding-top: 1em;
+  color: var(--fourth-color);
+  padding-top: 1em;
 }
 .container h5 {
-	font-weight: 500;
+  font-weight: 500;
 }
 .hide {
-	display: none;
+  display: none;
 }
 @media screen and (max-width: 720px) {
-	img {
-		max-width: 100%;
-		object-fit: contain;
-		height: 10em;
-	}
-	.card {
-		max-width: 10em;
-		margin-top: 1em;
-	}
-	#products {
-		grid-template-columns: auto auto;
-		grid-column-gap: 1em;
-	}
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+  }
+  .card {
+    max-width: 10em;
+    margin-top: 1em;
+  }
+  #products {
+    grid-template-columns: auto auto;
+    grid-column-gap: 1em;
+  }
 }
 .subNav {
-	display: flex;
-	justify-content: space-between;
-	left: 0;
-	right: 0;
-	position: fixed;
-	padding: 24px 80px;
-	align-items: center;
-	background-color: white;
-	z-index: 60;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding: 24px 80px;
+  align-items: center;
+  background-color: white;
+  z-index: 60;
 }
 #searchBoxb {
-	border: 1px solid rgba(0, 0, 0, 0.403);
-	border-radius: 30px;
-	padding: 5px 10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: rgba(255, 255, 255, 0.181);
+  border: 1px solid rgba(0, 0, 0, 0.403);
+  border-radius: 30px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.181);
 }
 /* .searchBox::before{
     content: "";
@@ -137,56 +137,56 @@ img {
 } */
 
 #searchBoxb input::placeholder {
-	color: rgba(0, 0, 0, 0.81);
+  color: rgba(0, 0, 0, 0.81);
 }
 #searchBoxb input {
-	color: rgb(0, 0, 0);
-	background-color: transparent;
-	border: none;
-	outline: none;
-	width: 100px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100px;
 }
 #searchBoxb button {
-	background: none;
+  background: none;
 }
 #buttons ul {
-	display: flex;
-	list-style: none;
+  display: flex;
+  list-style: none;
 }
 #buttons li {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 
 @media (max-width: 836px) {
-	#products {
-		margin-top: 360px;
-	}
-	#buttons {
-		display: flex;
-		justify-content: center;
-		margin-bottom: 20px;
-	}
-	#buttons button {
-		padding: 10px 20px;
-	}
-	#buttons ul {
-		text-align: center;
-		display: block;
-		list-style: none;
-	}
-	#buttons li {
-		font-size: 10px;
-		padding: 10px 5px;
-	}
-	.subNav {
-		display: block;
-		justify-content: center;
-		left: 0;
-		right: 0;
-		position: fixed;
-		padding: 24px 80px;
-		align-items: center;
-		background-color: white;
-		z-index: 60;
-	}
+  #products {
+    margin-top: 360px;
+  }
+  #buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  #buttons button {
+    padding: 10px 20px;
+  }
+  #buttons ul {
+    text-align: center;
+    display: block;
+    list-style: none;
+  }
+  #buttons li {
+    font-size: 10px;
+    padding: 10px 5px;
+  }
+  .subNav {
+    display: block;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding: 24px 80px;
+    align-items: center;
+    background-color: white;
+    z-index: 60;
+  }
 }

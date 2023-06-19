@@ -1,54 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
 .aboutus {
-	text-align: center;
-	margin-top: 60px;
+  text-align: center;
+  margin-top: 60px;
 }
 .aboutus h1 {
-	font-family: "Prata";
-	font-size: 45px;
+  font-family: "Prata";
+  font-size: 45px;
 }
 
 .wordcontents {
-	text-align: center;
-	font-size: 18px;
+  text-align: center;
+  font-size: 18px;
 }
 h2 {
-	font-family: Arial, Verdana;
-	font-weight: 800;
-	font-size: 2.5rem;
-	color: #091f2f;
-	text-transform: uppercase;
+  font-family: Arial, Verdana;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #091f2f;
+  text-transform: uppercase;
 }
 .panel-body ul {
-	list-style: square;
+  list-style: square;
 }
 .panel-body li {
-	padding: 10px 0;
+  padding: 10px 0;
 }
 .accordion-section .panel-default > .panel-heading {
-	align-items: center;
-	border: 0;
-	background: #fff;
-	padding: 0;
+  align-items: center;
+  border: 0;
+  background: #fff;
+  padding: 0;
 }
 .accordion-section .panel-default .panel-title a {
-	display: block;
-	font-style: italic;
-	font-size: 1.5rem;
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 .accordion-section .panel-default .panel-title a:after {
-	font-family: "FontAwesome";
-	font-style: normal;
-	font-size: 20px;
-	content: "\f106";
-	color: #000000;
-	float: right;
-	margin-top: -12px;
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-size: 20px;
+  content: "\f106";
+  color: #000000;
+  float: right;
+  margin-top: -12px;
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
-	content: "\f107";
+  content: "\f107";
 }
 .accordion-section .panel-default .panel-body {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }

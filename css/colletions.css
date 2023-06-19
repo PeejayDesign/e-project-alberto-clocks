@@ -1,166 +1,166 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 .collections {
-	overflow: hidden;
-	padding: 70px 30px;
+  overflow: hidden;
+  padding: 70px 30px;
 }
 .collectbox {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .collectbox ul {
-	list-style: none;
-	padding: 0 10px;
-	display: grid;
-	grid-template-columns: repeat(2, 2fr);
-	grid-column-gap: 5px;
-	grid-row-gap: 40px;
+  list-style: none;
+  padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 40px;
 }
 .collectbox li {
-	padding: 0 30px;
+  padding: 0 30px;
 }
 .collboxs1 {
-	text-align: center;
-	transition: 0.3s;
-	align-items: center;
-	border-radius: 5px;
-	color: white;
-	text-align: center;
-	background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
-		url(/images/klim-musalimov-nmhZgiSU8_0-unsplash.jpeg);
-	background-size: 100%;
-	background-position-y: -160px;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	transition: none;
-	background-color: var(--loading-grey);
-	height: 400px;
-	width: 600px;
+  text-align: center;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
+    url(/images/klim-musalimov-nmhZgiSU8_0-unsplash.jpeg);
+  background-size: 100%;
+  background-position-y: -160px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: none;
+  background-color: var(--loading-grey);
+  height: 400px;
+  width: 600px;
 }
 .collectbox h1 {
-	font-family: "Prata", serif;
-	text-align: center;
-	font-size: 25px;
+  font-family: "Prata", serif;
+  text-align: center;
+  font-size: 25px;
 }
 .collectbox p {
-	font-weight: 100;
-	color: black;
-	text-align: center;
+  font-weight: 100;
+  color: black;
+  text-align: center;
 }
 .collectbox p a {
-	color: black;
-	text-align: center;
+  color: black;
+  text-align: center;
 }
 .collboxs2 {
-	align-items: center;
-	border-radius: 5px;
-	color: white;
-	text-align: center;
-	background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
-		url(/images/laurenz-heymann-z6lNa2jYaVw-unsplash.jpeg);
-	background-size: 100%;
-	background-position-y: -160px;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	transition: none;
-	background-color: var(--loading-grey);
-	height: 400px;
-	width: 600px;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
+    url(/images/laurenz-heymann-z6lNa2jYaVw-unsplash.jpeg);
+  background-size: 100%;
+  background-position-y: -160px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: none;
+  background-color: var(--loading-grey);
+  height: 400px;
+  width: 600px;
 }
 
 .collboxs3 {
-	align-items: center;
-	border-radius: 5px;
-	background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
-		url(/images/michael-surazhsky-cZD_FY_Kv2o-unsplash.jpeg);
-	background-size: 130%;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	transition: none;
-	background-color: var(--loading-grey);
-	height: 400px;
-	width: 600px;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
+    url(/images/michael-surazhsky-cZD_FY_Kv2o-unsplash.jpeg);
+  background-size: 130%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: none;
+  background-color: var(--loading-grey);
+  height: 400px;
+  width: 600px;
 }
 
 .collboxs4 {
-	align-items: center;
-	border-radius: 5px;
-	color: white;
-	text-align: center;
-	background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
-		url(https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2018/10/Best-Spring-Bar-Tools-Gear-Patrol-Lead-Full.jpg?crop=0.6701030927835051xw:1xh;center,top&resize=640:*);
-	background-size: 100%;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0)),
+    url(https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2018/10/Best-Spring-Bar-Tools-Gear-Patrol-Lead-Full.jpg?crop=0.6701030927835051xw:1xh;center,top&resize=640:*);
+  background-size: 100%;
 
-	background-repeat: no-repeat;
-	overflow: hidden;
-	transition: none;
-	background-color: var(--loading-grey);
-	height: 400px;
-	width: 600px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: none;
+  background-color: var(--loading-grey);
+  height: 400px;
+  width: 600px;
 }
 
 @media (max-width: 1305px) {
-	.collboxs1 {
-		width: 400px;
-		height: 300px;
-	}
-	.collboxs2 {
-		width: 400px;
-		height: 300px;
-	}
-	.collboxs3 {
-		width: 400px;
-		height: 300px;
-	}
-	.collboxs4 {
-		width: 400px;
-		height: 300px;
-	}
+  .collboxs1 {
+    width: 400px;
+    height: 300px;
+  }
+  .collboxs2 {
+    width: 400px;
+    height: 300px;
+  }
+  .collboxs3 {
+    width: 400px;
+    height: 300px;
+  }
+  .collboxs4 {
+    width: 400px;
+    height: 300px;
+  }
 }
 @media (max-width: 895px) {
-	.collectbox ul {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	.collboxs1 {
-		width: 400px;
-		height: 300px;
-	}
+  .collectbox ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .collboxs1 {
+    width: 400px;
+    height: 300px;
+  }
 }
 @media (max-width: 414px) {
-	.collectbox ul {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	.collboxs1 {
-		width: 300px;
-		height: 200px;
-	}
-	.collboxs2 {
-		width: 300px;
-		height: 200px;
-	}
-	.collboxs3 {
-		width: 300px;
-		height: 200px;
-	}
-	.collboxs4 {
-		width: 300px;
-		height: 200px;
-	}
+  .collectbox ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .collboxs1 {
+    width: 300px;
+    height: 200px;
+  }
+  .collboxs2 {
+    width: 300px;
+    height: 200px;
+  }
+  .collboxs3 {
+    width: 300px;
+    height: 200px;
+  }
+  .collboxs4 {
+    width: 300px;
+    height: 200px;
+  }
 }
 
 /* ///skeleton// */
 
 :root {
-	--loading-grey: #d2d0d0;
+  --loading-grey: #d2d0d0;
 }
 
 @keyframes loading {
-	to {
-		background-position-x: -20%;
-	}
+  to {
+    background-position-x: -20%;
+  }
 }
 
 .caging {
-	padding: 0 6%;
+  padding: 0 6%;
 }

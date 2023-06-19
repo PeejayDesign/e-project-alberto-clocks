@@ -1,176 +1,176 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-	font-family: "Rubik", sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: rgb(255, 255, 255);
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
 }
 /*navBar*/
 .navBar {
-	transition: 0.5s;
-	display: flex;
-	justify-content: space-between;
-	left: 0;
-	right: 0;
-	position: fixed;
-	padding: 18px 50px;
-	align-items: center;
-	background-color: #090a0a;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding: 18px 50px;
+  align-items: center;
+  background-color: #090a0a;
 }
 .navcolor2 {
-	background-color: #090a0a;
+  background-color: #090a0a;
 }
 ul {
-	display: block;
-	list-style-type: disc;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	padding-inline-start: 0px;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 .btn {
-	display: none;
+  display: none;
 }
 .fa-clock {
-	color: #38876f;
+  color: #38876f;
 }
 .timeloader {
-	position: relative;
-	width: 24px;
-	height: 24px;
-	border-radius: 50%;
-	border: 3px solid #f9f9f9;
-	margin-left: 89px;
-	margin-top: -20px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid #f9f9f9;
+  margin-left: 89px;
+  margin-top: -20px;
 }
 .timeloader::after {
-	content: "";
-	display: block;
-	position: absolute;
-	left: 8px;
-	bottom: 9px;
-	width: 2px;
-	height: 10px;
-	background: #f9f9f9;
-	transform-origin: 0 100%;
-	animation: tick 1s infinite;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 8px;
+  bottom: 9px;
+  width: 2px;
+  height: 10px;
+  background: #f9f9f9;
+  transform-origin: 0 100%;
+  animation: tick 1s infinite;
 }
 @keyframes tick {
-	to {
-		transform: rotate(359deg);
-	}
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .logo ul {
-	list-style: none;
-	display: flex;
-	align-items: center;
-	color: white;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 .logo li {
-	padding: 10px;
+  padding: 10px;
 }
 #count {
-	margin-left: 10px;
-	background-color: white;
-	color: black;
-	padding: 2px;
-	border-radius: 10%;
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+  padding: 2px;
+  border-radius: 10%;
 }
 .logooshi {
-	display: flex;
+  display: flex;
 }
 .logo a {
-	text-decoration: none;
+  text-decoration: none;
 }
 .searchvv {
-	padding: 0 6px;
-	color: white;
-	display: none;
+  padding: 0 6px;
+  color: white;
+  display: none;
 }
 .logo li h1 {
-	cursor: pointer;
-	font-family: "Rubik", sans-serif;
-	margin: 0;
-	color: rgb(255, 255, 255);
-	font-size: 17px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
 }
 @media screen and (max-width: 280px) {
-	.logo li h1 {
-		font-size: 13px;
-	}
+  .logo li h1 {
+    font-size: 13px;
+  }
 }
 .navList ul {
-	display: flex;
-	list-style: none;
-	align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 .navList li a {
-	position: relative;
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-	padding: 0 15px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 0 15px;
 }
 .navList li a:hover {
-	color: #f1c79a;
+  color: #f1c79a;
 }
 .navList li a:active {
-	color: #24604e;
+  color: #24604e;
 }
 .vview-link::before {
-	transition: 300ms;
-	height: 2px;
-	content: "";
-	border-radius: 10px;
-	position: absolute;
-	background-color: rgba(255, 255, 255, 0.932);
+  transition: 300ms;
+  height: 2px;
+  content: "";
+  border-radius: 10px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.932);
 }
 .vview-link-ltr::before {
-	width: 0%;
-	bottom: -4px;
+  width: 0%;
+  bottom: -4px;
 }
 .vview-link-ltr:hover::before {
-	width: 60%;
+  width: 60%;
 }
 .buttonShop {
-	margin-top: 30px;
-	text-align: center;
+  margin-top: 30px;
+  text-align: center;
 }
 .buttonShop a {
-	text-decoration: none;
-	color: #f1c79a;
+  text-decoration: none;
+  color: #f1c79a;
 }
 .shopNow {
-	transition: 0.3s;
-	text-align: center;
-	border: none;
-	border-radius: 5px;
-	padding: 10px 20px;
-	background-color: #38876f;
+  transition: 0.3s;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #38876f;
 }
 .shopNow:hover {
-	padding: 10px 25px;
-	background-color: #24604e;
-	color: #fae3ca;
+  padding: 10px 25px;
+  background-color: #24604e;
+  color: #fae3ca;
 }
 .shopNow a {
-	font-size: 15px;
-	text-decoration: none;
-	color: #f1c79a;
+  font-size: 15px;
+  text-decoration: none;
+  color: #f1c79a;
 }
 .searchBox {
-	border: 1px solid rgba(255, 255, 255, 0.403);
-	border-radius: 30px;
-	padding: 5px 10px;
-	padding-left: 10px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: rgba(255, 255, 255, 0.181);
-	/* -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.403);
+  border-radius: 30px;
+  padding: 5px 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.181);
+  /* -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px); */
-	position: relative;
+  position: relative;
 }
 /* .searchBox::before{
     content: "";
@@ -183,205 +183,205 @@ ul {
     z-index: 1;
 } */
 .navIconss {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navIcons li:nth-child(4) {
-	color: #f1c79a;
+  color: #f1c79a;
 }
 
 .searchBox input::placeholder {
-	color: rgba(255, 255, 255, 0.81);
+  color: rgba(255, 255, 255, 0.81);
 }
 .searchBox input {
-	color: rgb(255, 255, 255);
-	background-color: transparent;
-	border: none;
-	outline: none;
-	width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100px;
 }
 .searchBox button {
-	background: none;
+  background: none;
 }
 .navIcons2 {
-	display: none;
+  display: none;
 }
 .navIcons ul {
-	color: white;
-	align-items: center;
-	display: flex;
-	list-style: none;
+  color: white;
+  align-items: center;
+  display: flex;
+  list-style: none;
 }
 .navIcons2 ul {
-	color: white;
-	align-items: center;
-	display: flex;
-	list-style: none;
+  color: white;
+  align-items: center;
+  display: flex;
+  list-style: none;
 }
 .navIcons li {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 .navIcons2 li {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 .navIcons li a {
-	color: rgb(255, 255, 255);
-	text-decoration: none;
-	/* padding: 0 10px; */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  /* padding: 0 10px; */
 }
 .navIcons2 li a {
-	color: rgb(255, 255, 255);
-	/* padding: 0 10px; */
+  color: rgb(255, 255, 255);
+  /* padding: 0 10px; */
 }
 /* //////////////// */
 @media screen and (max-width: 989px) {
-	.navIcons2 {
-		display: contents;
-	}
-	.offcanvas {
-		display: none;
-	}
-	.searchvv {
-		color: white;
-		display: contents;
-	}
-	.fa-magnifying-glass {
-		display: contents;
-	}
-	.navIcons li:nth-child(3) {
-		display: none;
-	}
-	/*.navIcons li:nth-child(4) {
+  .navIcons2 {
+    display: contents;
+  }
+  .offcanvas {
+    display: none;
+  }
+  .searchvv {
+    color: white;
+    display: contents;
+  }
+  .fa-magnifying-glass {
+    display: contents;
+  }
+  .navIcons li:nth-child(3) {
+    display: none;
+  }
+  /*.navIcons li:nth-child(4) {
         display: none;
     } */
 
-	.btn {
-		display: contents;
-	}
+  .btn {
+    display: contents;
+  }
 
-	.navList {
-		display: none;
-	}
+  .navList {
+    display: none;
+  }
 }
 .sign {
-	border-bottom: 1px solid rgba(128, 128, 128, 0.133);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.133);
 }
 .sign ul {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
 }
 .sign li {
-	padding: 0 10px;
+  padding: 0 10px;
 }
 .sign li button {
-	transition: 0.3s;
-	padding: 5px 60px;
-	font-weight: 600;
-	background-color: transparent;
-	color: #38876f;
-	border: 1px solid #38876f;
-	border-radius: 0.2875rem;
+  transition: 0.3s;
+  padding: 5px 60px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #38876f;
+  border: 1px solid #38876f;
+  border-radius: 0.2875rem;
 }
 .sign li button:hover {
-	background-color: #38876f;
-	color: rgb(255, 255, 255);
+  background-color: #38876f;
+  color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 375px) {
-	.sign li button {
-		padding: 5px 40px;
-	}
+  .sign li button {
+    padding: 5px 40px;
+  }
 }
 @media screen and (max-width: 280px) {
-	.sign li button {
-		padding: 5px 35px;
-	}
+  .sign li button {
+    padding: 5px 35px;
+  }
 }
 .opp {
-	border-bottom: 1px solid rgba(128, 128, 128, 0.133);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.133);
 }
 .opp ul {
-	align-items: center;
-	justify-content: center;
-	list-style: none;
-	margin: 0;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
 }
 .storelocc a {
-	font-size: 15px;
-	color: #090a0a;
-	text-decoration: none;
+  font-size: 15px;
+  color: #090a0a;
+  text-decoration: none;
 }
 .opp li {
-	padding: 10px 10px;
+  padding: 10px 10px;
 }
 .opp li a {
-	transition: 0.3s;
-	width: 150px;
-	padding: 10px 0px;
-	font-weight: 400;
-	background-color: transparent;
-	border: none;
-	border-radius: 0.2875rem;
+  transition: 0.3s;
+  width: 150px;
+  padding: 10px 0px;
+  font-weight: 400;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.2875rem;
 }
 .opp li a:hover {
-	color: #38876f;
+  color: #38876f;
 }
 /**/
 .storeloc {
-	border-bottom: 1px solid rgba(128, 128, 128, 0.133);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.133);
 }
 
 .chevronbtt {
-	margin-top: 90px;
-	text-align: center;
-	color: white;
-	font-size: 20px;
+  margin-top: 90px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
 }
 .chevronbtt a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 .poplist ul {
-	margin: 0;
+  margin: 0;
 }
 .categ {
-	padding: 3px 15px;
-	left: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	border-bottom: 1px solid rgba(128, 128, 128, 0.133);
+  padding: 3px 15px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.133);
 }
 .categ h4 {
-	padding-top: 20px;
-	font-family: "Rubik", sans-serif;
-	font-weight: 300;
+  padding-top: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
 }
 .categ h5 {
-	font-family: "Rubik", sans-serif;
-	font-weight: 400;
-	font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 .categ i {
-	color: #38876f;
+  color: #38876f;
 }
 .contact {
-	border-top: 3px solid rgb(229, 229, 229);
-	position: absolute;
-	right: 0;
-	left: 0;
-	bottom: 0;
+  border-top: 3px solid rgb(229, 229, 229);
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 .contact h4 a {
-	font-family: "Prata";
-	color: black;
-	text-decoration: none;
-	margin-bottom: 60px;
-	display: block;
-	padding: 0 15px;
-	font-size: 15px;
-	font-weight: 300;
+  font-family: "Prata";
+  color: black;
+  text-decoration: none;
+  margin-bottom: 60px;
+  display: block;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: 300;
 }
